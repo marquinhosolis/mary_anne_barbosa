@@ -85,8 +85,14 @@ body {
     }
 }
 
-
 main {
+    .floatWhatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 2;
+    }
+
     .cover {
         position: relative;
         background: var(--color-secondary);
